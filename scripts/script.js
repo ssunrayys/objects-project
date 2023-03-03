@@ -15,13 +15,15 @@ alert('Да, это будет работать. Мы можем изменит�
 
 //task #3
 
-let salaries = {
+const salaries = {
 	John: 100,
 	Ann: 160,
-	Pete: 130
+	Pete: 130,
+	Andrey: 40,
 };
 let allSalaries = 0;
 for (let key in salaries) {
 	allSalaries += salaries[key];
 }
 console.log(allSalaries);
+
